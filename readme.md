@@ -17,5 +17,8 @@ On Ubuntu
 6.	Start the container with your jupyter environment: `$ sudo docker-compose up`
 7.	Access the jupyter notebook from your browser using any of the given URLs from the previous Step.
 
+
+**Note:** You should **not** make changes to the `Dockerfile` or the `docker-compose.yml` file.
+
 If you are using a different OS, you would still need to install docker from Step 1 and 2 for your platform. 
 You should be responsible for searching the equivalent OS commands for your setup.
