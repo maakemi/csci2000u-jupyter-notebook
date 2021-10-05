@@ -3,9 +3,9 @@ FROM python:3.8
 WORKDIR /app
 
 RUN apt-get update -y
-RUN apt-get install -y texlive-xetex texlive-fonts-recommended texlive-latex-recommended
+RUN apt-get install -y texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive texlive-latex-extra pandoc
 
-RUN pip install jupyter nbconvert pyppeteer matplotlib numpy pandas
+RUN pip install jupyter nbconvert pyppeteer matplotlib numpy pandas sklearn
 
 
 EXPOSE 8888
